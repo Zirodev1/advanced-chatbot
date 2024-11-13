@@ -23,6 +23,9 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </div>
+      <div className={`fixed inset-0 z-10 bg-n-7/90 opacity-0 invisible transition-all ${ visible ? "md:opacity-100 md:visible" : ""}`}
+        onClick={() => setVisible(false)}
+      ></div>
     </div>
   );
 };
