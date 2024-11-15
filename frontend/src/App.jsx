@@ -3,7 +3,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import MainPage from './pages/main.page';
+import MainPage from './pages/HomePage/main.page';
 
 function App() {
 

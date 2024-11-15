@@ -9,8 +9,6 @@ const MenuChat = ({ className, buttonIcon }) => {
   return (
     <div className={className}>
       <Menu>
-        {({ open }) => (
-          <>
             {buttonIcon ? (
               <Menu.Button className="flex justify-center items-center w-11 h-11">
                 <Icon
@@ -84,8 +82,6 @@ const MenuChat = ({ className, buttonIcon }) => {
                 </div>
               </Menu.Items>
             </Transition>
-          </>
-        )}
       </Menu>
     </div>
   );
